@@ -17,5 +17,5 @@ async def start_(client: Client, message: Message):
 
 Pᴏᴡᴇʀᴇᴅ ʙʏ : [ʜɪɴᴀᴛᴀ](t.me/{me})
 Usᴇ /mhelp ...
-━━━━━━━━━━━━━━━━━━**"""
+━━━━━━━━━━━━━━━━━━**""",
     
