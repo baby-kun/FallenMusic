@@ -19,26 +19,19 @@ Pᴏᴡᴇʀᴇᴅ ʙʏ : [ʜɪɴᴀᴛᴀ](t.me/{me})
 Usᴇ /mhelp ...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
-            [
                 [
-                    InlineKeyboardButton(
-                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url=f"https://t.me/{bu}?startgroup=true"
-                       ),
-                  ],[
-                    InlineKeyboardButton(
-                        "💔 ᴏᴡɴᴇʀ 💔", url=f"https://t.me/{me}"
-                    ),
-                    InlineKeyboardButton(
-                        "🍒 sᴜᴘᴘᴏʀᴛ 🍒", url=f"https://t.me/{SUPPORT_GROUP}"
-                    )
-                ],[
-                    InlineKeyboardButton(
-                        "🔎 ɪɴʟɪɴᴇ 🔎", switch_inline_query_current_chat=""
-                    ),
-                    InlineKeyboardButton(
-                        "🤯 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 🤯", url="https://github.com/AnonymousR1025/FallenMusic"
-                    )]
-            ]
-       ),
-    )
-    
+                    [
+                        InlineKeyboardButton(
+                            text="Uᴘᴅᴀᴛᴇs",
+                            url=f"https://telegram.dog/sinxupdates",
+                        ),
+                        InlineKeyboardButton(
+                            text="Sᴜᴘᴘᴏʀᴛ",
+                            url="https://telegram.dog/SinXsupport",
+                        ),
+                        InlineKeyboardButton(
+                          text="Mᴀɪɴ ɢᴄ", url=f"t.me//sinxalliance"
+                        ),  
+                    ]
+                ]
+            ),
