@@ -12,30 +12,30 @@ async def start_(client: Client, message: Message):
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
 ʜᴇʏ {message.from_user.mention()} !
-ᴛʜɪs ɪs [{bn}](t.me/{bu}), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏᴄʜᴀᴛs...
+ᴛʜɪs ɪs [{bn}](t.me/{bu}) 's, ᴍᴜsɪᴄ ᴍᴏᴅᴜʟᴇ....ᴇɴᴊᴏʏ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴏɴ ᴠᴄs....
 
-Pᴏᴡᴇʀᴇᴅ ʙʏ : [ʜɪɴᴀᴛᴀ](t.me/{me})
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [ʜɪɴᴀᴛᴀ](t.me/hinataxrobot)
 Usᴇ /mhelp ...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Music 1", url=f"https://t.me/{bu}?startgroup=true"
+                        "Aᴋɪʜᴀʙᴀʀᴀ", url=f"https://t.me/AkihabaraOfficial"
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "Music 2", url=f"https://t.me/{me}"
+                        "Hɪɴᴀᴛᴀ", url=f"https://t.me/hinataxrobot"
                     ),
                     InlineKeyboardButton(
-                        " Hinata ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Mɪᴋᴇʏ", url=f"https://t.me/devilxghoul"
                     )
                 ],[
                     InlineKeyboardButton(
-                        " Inline ", switch_inline_query_current_chat=""
+                        "Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        " Owner ", url="https://github.com/baby-kun"
+                        "Oᴡɴᴇʀ", url="https://github.com/baby-kun"
                     )]
             ]
        ),
